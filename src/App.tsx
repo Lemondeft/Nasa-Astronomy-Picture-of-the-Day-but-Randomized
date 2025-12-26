@@ -58,7 +58,7 @@ const fetchAPOD = useCallback(async (retries = 0) => {
 
   return (
     <div className="min-h-screen bg-slate-900 flex flex-col items-center justify-center gap-6 text-white px-4">
-      <h1 className="text-3xl font-bold">NASA Astronomy Picture of the Day but randomized.</h1>
+      <h1 className="text-3xl font-bold text-center justify-center">NASA Astronomy Picture of the Day but randomized.</h1>
       {/* LOADING */}
       {loading && (
         <p className="animate-pulse text-lg tracking-wide">
