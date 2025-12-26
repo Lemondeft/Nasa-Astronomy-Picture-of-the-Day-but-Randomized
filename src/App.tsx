@@ -52,6 +52,7 @@ const fetchAPOD = useCallback(async (retries = 0) => {
 }, [API_KEY])
 
   useEffect(() => {
+    console.log("API KEY:", import.meta.env.VITE_NASA_API_KEY)
     fetchAPOD()
   }, [fetchAPOD])
 
